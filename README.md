@@ -1,13 +1,14 @@
 # Desafio do Language Studio no Azure IA
 Repositório do desafio "Análise de sentimentos com Language Studio no [Azure IA]()" da [Digital Innovation One](https://www.dio.me/).
+
 ## Anotações e Insights adquiridos durante a execução do projeto
 
 ## 📚Documentação
 - [Documentação Azure](https://learn.microsoft.com/pt-br/azure/machine-learning/?view=azureml-api-2&wt.mc_id=azuremachinelearning_inproduct_portal)
-
+#
 ## 💻Resumos das Informações
-|Passo     |Observação |
-|----------|-----------|
+|Passo             |Observação |
+|------------------|-----------|
 |
 
 
