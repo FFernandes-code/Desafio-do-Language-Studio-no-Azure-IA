@@ -37,8 +37,10 @@ O cenário escolhido foi a **avaliação de um site de hospedagem**, onde coment
 - Peguei as transcrições do Speech Studio.
 - Analisei com **Text Analytics for Sentiment Analysis**.
 - Resultados obtidos:
-  - **Sentimento geral:** Misto.
-  - **Opiniões detectadas:** 
+- **Sentimento geral:**
+   - Negativo
+   - Confiança: 0,00%
+- **Opiniões detectadas:** 
     - Quarto → Positivo
     - Ar-condicionado → Negativo
 
