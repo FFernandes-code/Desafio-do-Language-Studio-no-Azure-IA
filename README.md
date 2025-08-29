@@ -1,20 +1,71 @@
-# Desafio do Language Studio no Azure IA
-Repositório do desafio "Análise de sentimentos com Language Studio no [Azure IA]()" da [Digital Innovation One](https://www.dio.me/).
+---
+# Projeto DIO - Análise de Sentimentos com Language Studio no Azure AI aplicado em site de hospedagem 🎙️
 
-## Anotações e Insights adquiridos durante a execução do projeto
+## 📌 Descrição
+Este projeto foi desenvolvido como parte do desafio da [Digital Innovation One](https://www.dio.me/), com foco em aplicar os recursos do **Azure Speech Studio** e **Language Studio**.  
+O cenário escolhido foi a **avaliação de um site de hospedagem**, onde comentários de clientes são processados para obter **transcrição automática de voz** e **análise de sentimentos**.
 
-## 📚Documentação
-- [Documentação Azure](https://learn.microsoft.com/pt-br/azure/machine-learning/?view=azureml-api-2&wt.mc_id=azuremachinelearning_inproduct_portal)
-#
-## 💻Resumos das Informações
-|Passo             |Observação |
-|------------------|-----------|
-|
+---
 
+## 🎯 Objetivos de Aprendizagem
+- Explorar o **Speech Studio** para conversão de fala em texto.
+- Utilizar o **Language Studio** para análise de sentimentos e extração de insights.
+- Simular um **processo de avaliação de clientes** em um site de hospedagem.
+- Documentar todo o processo em um repositório GitHub.
 
+---
 
-## 🔍 Referências
--->[Digital Innovation One](https://web.dio.me/lab/analise-de-sentimentos-com-language-studio-no-azure-ai/learning/9977bbb1-04d5-424a-b22d-95a276f39dc6?back=/track/randstad-analise-de-dados)
+## 🛠️ Ferramentas Utilizadas
+- [Azure Speech Studio](https://speech.microsoft.com/) – Transcrição de fala.
+- [Azure Language Studio](https://language.cognitive.azure.com/) – Análise de texto e sentimentos.
+- [GitHub](https://github.com/) – Organização e compartilhamento do projeto.
+- Markdown – Criação deste README.md.
 
--->[Learn Azure](https://learn.microsoft.com/pt-br/azure/machine-learning/?view=azureml-api-2&wt.mc_id=azuremachinelearning_inproduct_portal)
+---
 
+## 🚀 Etapas do Projeto
+
+### 1. **Speech Studio – Transcrição de Fala**
+- Simulei comentários de clientes (áudios gravados).
+- Apliquei o serviço de **Speech to Text** para gerar transcrições.
+- Exemplo de entrada: 🎙️ *“O quarto era confortável, mas o ar-condicionado estava barulhento.”*  
+- Saída (texto): *“O quarto era confortável, mas o ar-condicionado estava barulhento.”*
+
+---
+
+### 2. **Language Studio – Análise de Sentimentos**
+- Peguei as transcrições do Speech Studio.
+- Analisei com **Text Analytics for Sentiment Analysis**.
+- Resultados obtidos:
+  - **Sentimento geral:** Misto.
+  - **Opiniões detectadas:** 
+    - Quarto → Positivo
+    - Ar-condicionado → Negativo
+
+---
+
+### 3. **Possíveis Aplicações no Site de Hospedagem**
+- Automatizar análise de feedbacks de clientes.
+- Gerar relatórios de satisfação por área (quarto, limpeza, alimentação etc.).
+- Apoiar decisões estratégicas (ex: melhorar café da manhã se muitos comentários forem negativos).
+
+---
+
+## 🧠 Aprendizados
+- O **Speech Studio** é eficiente para transcrever áudios em diferentes idiomas.
+- O **Language Studio** consegue detectar nuances nos sentimentos, indo além de positivo/negativo.
+- Projetos simples já mostram como **IA pode transformar experiências do cliente**.
+
+---
+
+## 📊 Resultados e Insights
+- A transcrição automática facilita o registro de feedbacks em áudio.
+- A análise de sentimentos ajuda a entender rapidamente **pontos fortes e fracos** do serviço.
+- Essa abordagem poderia ser integrada em tempo real em plataformas de hospedagem.
+
+---
+
+## 📜 Referências
+- [Documentação Speech Studio](https://learn.microsoft.com/azure/cognitive-services/speech-service/)
+- [Documentação Language Studio](https://learn.microsoft.com/azure/cognitive-services/language-service/)
+- [Guia Markdown GitHub](https://www.markdownguide.org/basic-syntax/)
